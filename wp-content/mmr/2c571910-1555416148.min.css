@@ -3734,6 +3734,27 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     transition: all 0.3s ease-in-out 0s
 }
 
+.btn-team-reg {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 260px;
+    height: 68px;
+    max-width: 100%;
+    background-color: #e78325;
+    font-size: 15px;
+    color: #121212;
+    font-variant: normal;
+    border: 1px solid transparent;
+    padding: 3px 36px 0 36px;
+    z-index: 99;
+    transition: all 0.3s ease-in-out 0s
+}
+
 .btn-closed {
     display: -ms-flexbox;
     display: flex;
@@ -3759,6 +3780,20 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
         width: 280px;
         background-color: #4285f5
     }
+}
+
+.btn-team-reg svg {
+    fill: #121212;
+    width: 43px;
+    height: 43px;
+    transition: fill 0.3s ease-in-out 0s
+}
+
+.btn-closed svg {
+    fill: #121212;
+    width: 43px;
+    height: 43px;
+    transition: fill 0.3s ease-in-out 0s
 }
 
 .btn svg {

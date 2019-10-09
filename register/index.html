@@ -131,69 +131,374 @@
 
             </header>
             <div class="full-page-content">
-                <div class="page-title-container">
-                    <h1 class="page-title" data-aos="title-animation" data-aos-duration="1000">Event Registration</h1>
-                </div>
-                <div class="form-page-wrapper">
-                    <div class="form__wrapper">
-                        <div role="form" class="wpcf7" id="wpcf7-f319-o1" lang="en-US" dir="ltr">
-                            <div class="screen-reader-response"></div>
-                            <div style="display: none;">
-                                <input type="hidden" name="_wpcf7" value="319" />
-                                <input type="hidden" name="_wpcf7_version" value="5.1.1" />
-                                <input type="hidden" name="_wpcf7_locale" value="en_US" />
-                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f319-o1" />
-                                <input type="hidden" name="_wpcf7_container_post" value="0" />
-                                <input type="hidden" name="g-recaptcha-response" value="" />
-                            </div>
-                            <input type="hidden" name="form_name" value="Contact Us" class="wpcf7-form-control wpcf7-hidden" />
-                            <div class="form__left-column" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                                <div class="form__group">
-                                    <label class="form__label"> First name</label><br />
-                                    <span class="wpcf7-form-control-wrap first-name"><input type="text" name="first-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input"  aria-required="true" id="first" aria-invalid="false" placeholder="first name *" /></span>
-                                </div>
-                                <div class="form__group">
-                                    <label class="form__label"> Last name</label><br />
-                                    <span class="wpcf7-form-control-wrap last-name"><input type="text" name="last-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input" id="last" aria-required="true" aria-invalid="false" placeholder="last name *" /></span>
-                                </div>
-                                <div class="form__group">
-                                    <label class="form__label"> Email</label><br />
-                                    <span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form__input" id="email" aria-required="true" aria-invalid="false" placeholder="email *" /></span></label>
-                                </div>
-                                <div class="form__group">
-                                    <label class="form__label"> Phone number</label><br />
-                                    <span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form__input" id="number" aria-required="true" aria-invalid="false" placeholder="phone number *" /></span>
-                                </div>
-                            </div>
-                            <div class="form__right-column" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
-                                <div class="form__group select">
-                                    <label class="form__label select"> Choose your event for participation</label><br />
-                                    <span class="wpcf7-form-control-wrap type"><select name="type" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select contact j-select" id="type" aria-required="true" aria-invalid="false"><option value=""></option><option value="new project">Hackathon</option><option value="partnership">Code IT</option><option value="press">UI\UX development</option><option value="careers">Java</option><option value="other">Android</option></select></span>
-                                </div>
-                                <div class="form__group textarea">
-                                    <label class="form__label">how can we help you? </label><br />
-                                    <span class="wpcf7-form-control-wrap description"><textarea name="descriptions" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form__input" id="description" aria-invalid="false" placeholder="describe your idea"></textarea></span>
-                                </div>
-                                <div class="form__btn-wrapper">
-                                    <button class="btn" id="submit" onclick="submit()">Submit</button>
+
+                <div class="full-page-content">
+                    <div class="page-title-container">
+                        <h1 class="page-title" data-aos="title-animation" data-aos-duration="1000">Registrations</h1>
+                    </div>
+                    <div class="form-page-wrapper">
+                        <div class="form__wrapper">
+                            <div role="form" class="wpcf7" id="wpcf7-f318-o1" lang="en-US" dir="ltr">
+                                <div class="screen-reader-response"></div>
+                                <form action="#" method="post" class="wpcf7-form" novalidate="novalidate">
+                                    <div style="display: none;">
+                                        <input type="hidden" name="_wpcf7" value="318" />
+                                        <input type="hidden" name="_wpcf7_version" value="5.1.1" />
+                                        <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f318-o1" />
+                                        <input type="hidden" name="_wpcf7_container_post" value="0" />
+                                        <input type="hidden" name="g-recaptcha-response" value="" />
+                                    </div>
+                                    <input type="hidden" name="form_name" value="Get a Quote" class="wpcf7-form-control wpcf7-hidden" />
+                                    <div class="form__left-column" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                                        <div class="form__group">
+                                            <label class="form__label">Leader</label><br />
+                                            <span class="wpcf7-form-control-wrap first-name"><input type="text"
+                                                name="first-name" value="" size="40"
+                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="1st name(Leader)*" /></span>
 
 
-                                </div>
-                                <div class="wpcf7-response-output wpcf7-display-none"></div>
-                            </div>
-                            <div class="form__footer">
-                                <ul class="form__list">
-                                    <li class="form__list-item email">
-                                        <a class="form__list-link email" href="mailto:#">info@#.com</a>
-                                    </li>
-                                    <li class="form__list-item tel">
-                                        <a class="form__list-link tel" href="tel:#">310.467.9960</a>
-                                    </li>
+                                            <div class="form__group select">
+                                                <label class="form__label select">GENDER(leader)</label><br />
+                                                <span class="wpcf7-form-control-wrap project"><select name="project" 
+                                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                        aria-required="true" aria-invalid="false">
+                                                       
+                                                        <option value="web development">Male</option>
+                                                        <option value="UX/UI design">Female</option>
+                                                        <option value="branding">Other</option>
+                                                    </select></span>
+                                            </div>
+                                            <div class="form__group select">
+                                                <label class="form__label select">Branch(leader)</label><br />
+                                                <span class="wpcf7-form-control-wrap project"><select name="project" 
+                                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                        aria-required="true" aria-invalid="false">
+                                                       
+                                                        <option value="web development">CSE</option>
+                                                        <option value="UX/UI design">ME</option>
+                                                        <option value="branding">EE</option>
+                                                        <option value="branding">EEE</option>
+                                                        <option value="branding">EC</option>
+                                                        <option value="branding">CE</option>
+                                                        <option value="branding">ML</option>
+                                                        <option value="branding">AI</option>
+                                                    </select></span>
+                                            </div>
+                                            <div class="form__group">
+                                                <label class="form__label">college Email Leader </label><br />
+                                                <span class="wpcf7-form-control-wrap email"><input type="email" name="email"
+                                                                    value="" size="40"
+                                                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form__input"
+                                                                    aria-required="true" aria-invalid="false"
+                                                                    placeholder="email *" /></span></label>
+                                            </div>
+                                            <div class="form__group select">
+                                                <label class="form__label select">Select college(leader)</label><br />
+                                                <span class="wpcf7-form-control-wrap project"><select name="project" 
+                                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                        aria-required="true" aria-invalid="false">
+                                                       
+                                                        <option value="web development">JIET</option>
+                                                        <option value="UX/UI design">JIET-COE</option>
+                                                        <option value="branding">ML/AI</option>
+                                                    </select></span>
+                                            </div>
+                                            <div class="form__group textarea">
+                                                <label class="form__label">Pick-up Point of Leader </label><br />
+                                                <span class="wpcf7-form-control-wrap description"><textarea name="description"
+                                                            cols="40" rows="10"
+                                                            class="wpcf7-form-control wpcf7-textarea form__input"
+                                                            aria-invalid="false"
+                                                            placeholder="Pick-up point of bus"></textarea></span>
+                                            </div>
+                                            <div class="form__group">
+                                                <label class="form__label"> Phone number of Leader</label><br />
+                                                <span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone"
+                                                        value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form__input"
+                                                        aria-required="true" aria-invalid="false"
+                                                        placeholder="phone *" /></span>
+                                            </div>
 
-                                </ul>
+
+
+                                        </div>
+                                        <div class="form__group">
+                                            <label class="form__label"> Member</label><br />
+                                            <span class="wpcf7-form-control-wrap first-name"><input type="text"
+                                                name="first-name" value="" size="40"
+                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="2nd member" /></span>
+                                            <div class="form__group select">
+                                                <label class="form__label select">GENDER of 2nd Member</label><br />
+                                                <span class="wpcf7-form-control-wrap project"><select name="project"
+                                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                        aria-required="true" aria-invalid="false">
+                    
+                                                        <option value="web development">Male</option>
+                                                        <option value="UX/UI design">Female</option>
+                                                        <option value="branding">Other</option>
+                                                    </select></span>
+                                                <div class="form__group select">
+                                                    <label class="form__label select">Branch(of 2nd Member)</label><br />
+                                                    <span class="wpcf7-form-control-wrap project"><select name="project" 
+                                                                class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                                aria-required="true" aria-invalid="false">
+                                                               
+                                                                <option value="web development">CSE</option>
+                                                                <option value="UX/UI design">ME</option>
+                                                                <option value="branding">EE</option>
+                                                                <option value="branding">EEE</option>
+                                                                <option value="branding">EC</option>
+                                                                <option value="branding">CE</option>
+                                                                <option value="branding">ML</option>
+                                                                <option value="branding">AI</option>
+                                                            </select></span>
+                                                </div>
+                                                <div class="form__group">
+                                                    <label class="form__label">college Email of 2nd member</label><br />
+                                                    <span class="wpcf7-form-control-wrap email"><input type="email" name="email"
+                                                                    value="" size="40"
+                                                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form__input"
+                                                                    aria-required="true" aria-invalid="false"
+                                                                    placeholder="email *" /></span></label>
+                                                </div>
+                                                <div class="form__group select">
+                                                    <label class="form__label select">Select college(of 2nd member)</label><br />
+                                                    <span class="wpcf7-form-control-wrap project"><select name="project" 
+                                                            class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                            aria-required="true" aria-invalid="false">
+                                                           
+                                                            <option value="web development">JIET</option>
+                                                            <option value="UX/UI design">JIET-COE</option>
+                                                            <option value="branding">ML/AI</option>
+                                                        </select></span>
+                                                </div>
+                                                <div class="form__group textarea">
+                                                    <label class="form__label">Pick-up Point of 2nd member</label><br />
+                                                    <span class="wpcf7-form-control-wrap description"><textarea name="description"
+                                                            cols="40" rows="10"
+                                                            class="wpcf7-form-control wpcf7-textarea form__input"
+                                                            aria-invalid="false"
+                                                            placeholder="Pick-up point of bus"></textarea></span>
+                                                </div>
+                                                <div class="form__group">
+                                                    <label class="form__label"> Phone number of 2nd member</label><br />
+                                                    <span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone"
+                                                        value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form__input"
+                                                        aria-required="true" aria-invalid="false"
+                                                        placeholder="phone *" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form__group">
+                                            <label class="form__label"> Member</label><br />
+                                            <span class="wpcf7-form-control-wrap first-name"><input type="text"
+                                                name="first-name" value="" size="40"
+                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="3rd member" /></span>
+                                            <div class="form__group select">
+                                                <label class="form__label select">GENDER of 3rd Member</label><br />
+                                                <span class="wpcf7-form-control-wrap project"><select name="project"
+                                                            class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                            aria-required="true" aria-invalid="false">
+                        
+                                                            <option value="web development">Male</option>
+                                                            <option value="UX/UI design">Female</option>
+                                                            <option value="branding">Other</option>
+                                                        </select></span>
+                                                <div class="form__group select">
+                                                    <label class="form__label select">Branch(of 3rd Member)</label><br />
+                                                    <span class="wpcf7-form-control-wrap project"><select name="project" 
+                                                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                                        aria-required="true" aria-invalid="false">
+                                                                       
+                                                                        <option value="web development">CSE</option>
+                                                                        <option value="UX/UI design">ME</option>
+                                                                        <option value="branding">EE</option>
+                                                                        <option value="branding">EEE</option>
+                                                                        <option value="branding">EC</option>
+                                                                        <option value="branding">CE</option>
+                                                                        <option value="branding">ML</option>
+                                                                        <option value="branding">AI</option>
+                                                                    </select></span>
+                                                </div>
+                                                <div class="form__group">
+                                                    <label class="form__label">college Emailof 3rd Member</label><br />
+                                                    <span class="wpcf7-form-control-wrap email"><input type="email" name="email"
+                                                                        value="" size="40"
+                                                                        class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form__input"
+                                                                        aria-required="true" aria-invalid="false"
+                                                                        placeholder="email *" /></span></label>
+                                                </div>
+                                                <div class="form__group select">
+                                                    <label class="form__label select">Select college(of 3rd member)</label><br />
+                                                    <span class="wpcf7-form-control-wrap project"><select name="project" 
+                                                            class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                            aria-required="true" aria-invalid="false">
+                                                           
+                                                            <option value="web development">JIET</option>
+                                                            <option value="UX/UI design">JIET-COE</option>
+                                                            <option value="branding">ML/AI</option>
+                                                        </select></span>
+                                                </div>
+                                                <div class="form__group textarea">
+                                                    <label class="form__label">Pick-up Point ofof 3rd Member</label><br />
+                                                    <span class="wpcf7-form-control-wrap description"><textarea name="description"
+                                                                cols="40" rows="10"
+                                                                class="wpcf7-form-control wpcf7-textarea form__input"
+                                                                aria-invalid="false"
+                                                                placeholder="Pick-up point of bus"></textarea></span>
+                                                </div>
+                                                <div class="form__group">
+                                                    <label class="form__label"> Phone number of 3rd Member</label><br />
+                                                    <span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone"
+                                                        value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form__input"
+                                                        aria-required="true" aria-invalid="false"
+                                                        placeholder="phone *" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form__group">
+                                            <label class="form__label"> Member</label><br />
+                                            <span class="wpcf7-form-control-wrap first-name"><input type="text"
+                                                name="first-name" value="" size="40"
+                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form__input"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="4th member" /></span>
+                                            <div class="form__group select">
+                                                <label class="form__label select">GENDER of 4th Member</label><br />
+                                                <span class="wpcf7-form-control-wrap project"><select name="project"
+                                                            class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                            aria-required="true" aria-invalid="false">
+                        
+                                                            <option value="web development">Male</option>
+                                                            <option value="UX/UI design">Female</option>
+                                                            <option value="branding">Other</option>
+                                                        </select></span>
+                                                <div class="form__group select">
+                                                    <label class="form__label select">Branch(of 4th Member)</label><br />
+                                                    <span class="wpcf7-form-control-wrap project"><select name="project" 
+                                                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                                        aria-required="true" aria-invalid="false">
+                                                                       
+                                                                        <option value="web development">CSE</option>
+                                                                        <option value="UX/UI design">ME</option>
+                                                                        <option value="branding">EE</option>
+                                                                        <option value="branding">EEE</option>
+                                                                        <option value="branding">EC</option>
+                                                                        <option value="branding">CE</option>
+                                                                        <option value="branding">ML</option>
+                                                                        <option value="branding">AI</option>
+                                                                    </select></span>
+                                                </div>
+                                                <div class="form__group">
+                                                    <label class="form__label">college Email of 4th Member</label><br />
+                                                    <span class="wpcf7-form-control-wrap email"><input type="email" name="email"
+                                                                value="" size="40"
+                                                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form__input"
+                                                                aria-required="true" aria-invalid="false"
+                                                                placeholder="email *" /></span></label>
+                                                </div>
+                                                <div class="form__group select">
+                                                    <label class="form__label select">Select college(of 4th member)</label><br />
+                                                    <span class="wpcf7-form-control-wrap project"><select name="project" 
+                                                            class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                            aria-required="true" aria-invalid="false">
+                                                           
+                                                            <option value="web development">JIET</option>
+                                                            <option value="UX/UI design">JIET-COE</option>
+                                                            <option value="branding">ML/AI</option>
+                                                        </select></span>
+                                                </div>
+                                                <div class="form__group textarea">
+                                                    <label class="form__label">Pick-up Point of 4th Member</label><br />
+                                                    <span class="wpcf7-form-control-wrap description"><textarea name="description"
+                                                        cols="40" rows="10"
+                                                        class="wpcf7-form-control wpcf7-textarea form__input"
+                                                        aria-invalid="false"
+                                                        placeholder="Pick-up point of bus"></textarea></span>
+                                                </div>
+                                                <div class="form__group">
+                                                    <label class="form__label"> Phone number of 4th Member</label><br />
+                                                    <span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone"
+                                                        value="" size="40"
+                                                        class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form__input"
+                                                        aria-required="true" aria-invalid="false"
+                                                        placeholder="phone *" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+                                    </div>
+                                    <div class="form__right-column" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                                        <div class="form__group select">
+                                            <label class="form__label select"> Project type</label><br />
+                                            <span class="wpcf7-form-control-wrap project"><select name="project"
+                                                class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                aria-required="true" aria-invalid="false">
+                                                <option value=""></option>
+                                                <option value="web development">web development</option>
+                                                <option value="UX/UI design">UX/UI design</option>
+                                                <option value="branding">branding</option>
+                                                <option value="digital strategy">digital strategy</option>
+                                                <option value="mobile app">mobile app</option>
+                                                <option value="other">other</option>
+                                            </select></span>
+                                        </div>
+                                        <div class="form__group select">
+                                            <label class="form__label select"> Project type</label><br />
+                                            <span class="wpcf7-form-control-wrap project"><select name="project"
+                                                class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form__input select quote j-select"
+                                                aria-required="true" aria-invalid="false">
+                                                <option value=""></option>
+                                                <option value="web development">web development</option>
+                                                <option value="UX/UI design">UX/UI design</option>
+                                                <option value="branding">branding</option>
+                                                <option value="digital strategy">digital strategy</option>
+                                                <option value="mobile app">mobile app</option>
+                                                <option value="other">other</option>
+                                            </select></span>
+                                        </div>
+                                        <div class="form__group textarea">
+                                            <label class="form__label">Project description</label><br />
+                                            <span class="wpcf7-form-control-wrap description"><textarea name="description"
+                                                cols="40" rows="10"
+                                                class="wpcf7-form-control wpcf7-textarea form__input"
+                                                aria-invalid="false"
+                                                placeholder="describe your project"></textarea></span>
+                                        </div>
+                                        <div class="form__group textarea">
+                                            <label class="form__label">Team Name</label><br />
+                                            <span class="wpcf7-form-control-wrap description"><textarea name="description"
+                                                cols="40" rows="10"
+                                                class="wpcf7-form-control wpcf7-textarea form__input"
+                                                aria-invalid="false"
+                                                placeholder="Team Name"></textarea></span>
+                                        </div>
+                                        <div class="form__btn-wrapper right">
+                                            <input type="submit" value="SUBMIT" class="wpcf7-form-control wpcf7-submit btn form__btn" /><br />
+                                            <svg class="form__btn-icon">
+                                            <use xlink:href="#icon-arrow-on-btn"></use>
+                                        </svg>
+                                        </div>
+                                        <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                    </div>
+                                </form>
                             </div>
-                            </form>
                         </div>
+
                     </div>
                 </div>
             </div>
